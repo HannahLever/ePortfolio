@@ -11,3 +11,18 @@ Date: 18 February 2025
     grid-template-rows: auto auto auto;
     gap: 5%;
 }
+
+.education {
+    grid-column-start: 0;
+    grid-column-end: 1;
+}
+
+.experience {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#resume {
+    margin-left: 15%;
+    margin-right: 15%;
+}
