@@ -1,0 +1,39 @@
+@charset "URF-8";
+
+/*
+Author: Hannah Lever
+Date: 30 January 2025
+*/
+
+body {
+    background-color: #f8f5d7;
+    color: black; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p:first-child::first-letter{
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+img {
+    margin: 25px;
+}
+
+section {
+    margin: 10px 50px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    color: brown;
+}
