@@ -19,11 +19,12 @@ Date: 18 February 2025
     display: grid;
     grid-template-columns: 2fr 3fr;
     grid-template-rows: auto auto auto auto;
-    gap: 5%;
+    column-gap: 5%;
+    row-gap: 25px;
+    
     margin-left: 15%;
     margin-right: 15%;
     margin-bottom: 25px;
-    row-gap: 25px;
 }
 
 #lcbo {
