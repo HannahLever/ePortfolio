@@ -17,8 +17,6 @@ Date: 18 February 2025
 
 #resume {
     display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-template-rows: auto auto auto auto;
     column-gap: 5%;
     row-gap: 25px;
     
@@ -33,11 +31,15 @@ Date: 18 February 2025
 }
 
 @media only screen and (max-width: 600px) { /* mobile */
-
+    #resume { 
+        grid-template-columns: 1fr;
+    }
 }
 
 @media only screen and (min-width: 600px) { /* tablet */ 
-
+    #resume {
+        grid-template-columns: 2fr 3fr;
+    }
 }
 
 @media only screen and (min-width: 768px) { /* desktop */
