@@ -5,6 +5,7 @@ Author: Hannah Lever
 Date: 18 February 2025
 */
 
+/*
 .education {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -14,6 +15,7 @@ Date: 18 February 2025
     grid-column-start: 2;
     grid-column-end: 3;
 }
+*/
 
 #resume {
     display: grid;
@@ -25,15 +27,15 @@ Date: 18 February 2025
     margin-bottom: 25px;
 }
 
+/*
 #lcbo {
     grid-row-start: 2;
     grid-row-end: 3;
 }
+*/
 
 @media only screen and (max-width: 600px) { /* mobile */
-    #resume { 
-        grid-template-columns: 1fr;
-    }
+    
 }
 
 @media only screen and (min-width: 600px) { /* tablet */ 
@@ -43,5 +45,5 @@ Date: 18 February 2025
 }
 
 @media only screen and (min-width: 768px) { /* desktop */
-
+    
 }
