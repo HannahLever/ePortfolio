@@ -13,10 +13,10 @@ Date: 18 February 2025
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 25px;
+}
 
-    div {
-        margin: 5px;
-    }
+#resume div {
+    margin: 5px;
 }
 
 #resume > section {
@@ -37,12 +37,12 @@ Date: 18 February 2025
 
     nav {
         width: 100%;
+    }
 
-        ul {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-        }
+    nav > ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 }
 
